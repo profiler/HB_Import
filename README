@@ -1,0 +1,20 @@
+import.c (adapted)                                                  (c)Ton_12-11-2010 / "profiler"
+Replacement import-module for Ubuntu/Deb Homebank (v4.3) with
+added CSV routine for importing single and MULTIPLE accounts.
+
+Most bank export-files contain all accounts together in one file.
+================================================================================================
+Added to the imported csv-file is 1 line per account containing:
+            [account-number] ; [account-name as used in Homebank-wallet]
+
+All changes are between line 243-482, tagged with: (c)TvT_<date>
+
+------------------------------------------------------------------------------------------------
+!!!!! This adapted module ONLY works with Homebank (v4.3) !!!!!!!
+
+To compile,
+    remove current Homebank-4.3 version with Ubuntu-software-center !!
+    download Homebank_4.3.orig.tar.gz @ launchpadlibrarian.net
+    extract and in /src directory rename import.c to import.c.bak and add the new adapted import.c
+    compile according to document http://homebank.free.fr/index.php?id=86
+
