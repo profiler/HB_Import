@@ -17,7 +17,7 @@
  *	along with this program.	If not, see <http://www.gnu.org/licenses/>.
  * --------------------------------------------------------------------------
  *
- ** Added CSV routine for importing single and multiple accounts.  (c)TvT_12-11-2010
+ ** Homebank-4.3 _ Added CSV routine for importing single and multiple accounts.  (c)TvT_12-11-2010
  */
 
 #include "homebank.h"
